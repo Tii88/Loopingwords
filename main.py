@@ -1,9 +1,7 @@
 import telebot
 import json
-from keep_alive import keep_alive
 from telebot import types
 
-keep_alive()
 bot = telebot.TeleBot("6675748109:AAE5qpmjAjiOnnt-nZWQgdcPCtny99uzY7U")
 
 users_file = "users.txt"
